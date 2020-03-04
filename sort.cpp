@@ -48,21 +48,12 @@ int selectionsort(int array[],int length)
     
 }
 
-int minval(int arr[], length)
-{
-    for (int i = 0; i < length; i++)
-    {
-        if ()
-    }
-}
-
-
 int main(void){
     // Your code here!
     int a[]={2,5,7,8,1, 10,35,39};
     int size = *(&a + 1) - a; 
     // int length  = a.size();
-    // bobblesort(a,size);
+    bobblesort(a,size);
     selectionsort(a,size);
    
 }
